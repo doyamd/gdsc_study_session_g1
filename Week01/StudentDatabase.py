@@ -8,7 +8,7 @@ class Student:
         self.grade = grade
 
 student_dict = defaultdict(lambda: Student("", 0, 0))
-ID = 0
+ID_set = set()
 def add():
     global ID
     ID += 1
