@@ -11,7 +11,7 @@ def basic_operations(n1,n2):
     d['div'] = n1/n2
     d['multi'] = n1*n2
     return d
-# print(basic_operations(1,2))
+
 
 def power_operation(base, exponent,**kwargs):
     result = base ** exponent
@@ -20,6 +20,6 @@ def power_operation(base, exponent,**kwargs):
         result %= kwargs['mod']
     
     return result
-# power_operation(base=2, pow =2,mod=2 )    
+
     
 #[2023-12-13 12:10:29] #[2023-12-13 12:13:19] 
